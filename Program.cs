@@ -12,13 +12,16 @@ namespace FizzBuzz
         {
             Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine("FizzBuzz!");
+            Console.WriteLine("---------");
             int one = 1;
-            bool test1 = true;
-            if (test1) 
+            bool onetest = true;
+            if (onetest)
             {
-                int test1end = 3 / one;
-                Console.WriteLine(test1end);
+                int onetest1 = one / 3;
+                onetest1 = 0;
+                Console.WriteLine("1");
             }
+
         }
     }
 }
