@@ -22,6 +22,24 @@ namespace FizzBuzz
                 Console.WriteLine("1");
             }
 
+            int two = 1;
+            bool twotest = true;
+            if (twotest)
+            {
+                int twotest1 = two / 3;
+                twotest1 = 0;
+                Console.WriteLine("2");
+            }
+
+            int one = 1;
+            bool onetest = true;
+            if (onetest)
+            {
+                int onetest1 = one / 3;
+                onetest1 = 0;
+                Console.WriteLine("Fizz");
+            }
+
         }
     }
 }
