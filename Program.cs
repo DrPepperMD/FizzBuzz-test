@@ -1,8 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FizzBuzz
 {
@@ -21,7 +17,7 @@ namespace FizzBuzz
             {
                 int onetest1 = one / 3;
                 onetest1 = 0;
-                Console.WriteLine("1");
+                Console.WriteLine("\n1");
             }
 
             int two = 2;
@@ -134,69 +130,68 @@ namespace FizzBuzz
                 Console.WriteLine("13");
             }
 
-            int four = 4;
-            bool fourtest = true;
-            if (fourtest)
+            int fourteen = 14;
+            bool fourteentest = true;
+            if (fourteentest)
             {
-                int fourtest1 = four / 3;
-                fourtest1 = 0;
-                Console.WriteLine("4");
+                int fourteentest1 = fourteen / 3;
+                fourteentest1 = 0;
+                Console.WriteLine("14");
             }
 
-            int five = 5;
-            bool fivetest = true;
-            if (fivetest)
+            int fifteen = 15;
+            bool fifteentest = true;
+            if (fifteentest)
             {
-                int fivetest1 = five / 5;
-                fivetest1 = 0;
-                Console.WriteLine("Buzz (5)");
+                int fifteentest1 = fifteen / 5;
+                fifteentest1 = 0;
+                Console.WriteLine("FizzBuzz (15)");
             }
 
-            int six = 6;
-            bool sixtest = true;
-            if (sixtest)
+            int sixteen = 16;
+            bool sixteentest = true;
+            if (sixteentest)
             {
-                int sixtest1 = six / 3;
-                sixtest1 = 0;
-                Console.WriteLine("Fizz (6)");
+                int sixteentest1 = sixteen / 3;
+                sixteentest1 = 0;
+                Console.WriteLine("16");
             }
 
-            int seven = 7;
-            bool seventest = true;
-            if (seventest)
+            int seventeen = 17;
+            bool seventeentest = true;
+            if (seventeentest)
             {
-                int seventest1 = seven / 3;
-                seventest1 = 0;
-                Console.WriteLine("7");
+                int seventeentest1 = seventeen / 3;
+                seventeentest1 = 0;
+                Console.WriteLine("17");
             }
 
-            int eight = 8;
-            bool eighttest = true;
-            if (eighttest)
+            int eighteen = 18;
+            bool eighteentest = true;
+            if (eighteentest)
             {
-                int eighttest1 = eight / 3;
-                eighttest1 = 0;
-                Console.WriteLine("8");
+                int eighteentest1 = eighteen / 3;
+                eighteentest1 = 0;
+                Console.WriteLine("Fizz (18)");
             }
 
-            int nine = 9;
-            bool ninetest = true;
-            if (ninetest)
+            int nineteen = 19;
+            bool nineteentest = true;
+            if (nineteentest)
             {
-                int ninetest1 = nine / 3;
-                ninetest1 = 0;
+                int nineteentest1 = nineteen / 3;
+                nineteentest1 = 0;
                 Console.WriteLine("Fizz (9)");
             }
 
-            int ten = 10;
-            bool tentest = true;
-            if (tentest)
+            int twenty = 20;
+            bool twentytest = true;
+            if (twentytest)
             {
-                int tentest1 = ten / 10;
-                tentest1 = 0;
-                Console.WriteLine("Buzz (9)");
+                int twentytest1 = twenty / 5;
+                twentytest1 = 0;
+                Console.WriteLine("Buzz (20)");
             }
-
         }
     }
 }
